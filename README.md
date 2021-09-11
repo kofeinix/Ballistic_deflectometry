@@ -7,7 +7,7 @@
 In order to study generated magnetic fields qualitatively and quantitatively various techniques can be
 employed. One of them is proton radiography (deflectometry). It allows to measure both electric and magnetic fields and even track their evolution (on a ps scale).
 Principle scheme of this diagnostic is shown below:
-
+![scheme](https://user-images.githubusercontent.com/90211042/132966051-479b1cd8-1b48-48dc-8ff9-eb96ad0842e1.png)
 
 The laser irradiates thin foil and thus creates a directed beam of protons. This beam is well-collimated and the proton energy distribution is wide.
 The beam passes through the target (field) region and the protons are deflected in some way.
