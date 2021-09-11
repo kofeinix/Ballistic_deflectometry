@@ -34,10 +34,10 @@ The output is a singe file with Bx, By, Bz columns. Also, a separate file with c
 ## Libraries
 The most important library beside standard numpy is a library [numba](http://numba.pydata.org/). It is used to significantly accelerate calculation by using @jit decorator and prange instead of range. This will be discussed further.
 ## Program initialization
-At first, all the input and output file paths should be checked. (2 files for B field and 3 - for E field). The the code checks for infs and NaNs, which may be present and tries to get rid of them.
-In creates a single big array for B field and a singe big array for E field. In the code everywhere _meters_ are used.
-Important step - to write minimum and maximum coordinates that are used for field creation. Also, the step is important. In the presented example, the step is 10 microns, and this leads to 120 x 100 x 150 point grid.
-However, even such not detailed grid still a heavy-weight file.
+At first, all the input and output file paths should be checked (2 files for B field and 3 - for E field). Then the code checks for infs and NaNs, which may be present and tries to get rid of them.
+In creates a single big array for B field and a singe big array for E field. In the code everywhere _meters_ units are used.
+Important step - to write minimum and maximum coordinates that are used for field creation. Also, the "step" is important. In the presented example, the "step" is 10 microns, and this leads to 120 x 100 x 150 point grid.
+However, even such not very detailed grid is still a heavy-weight file (here - in rar archive for compactness).
 One of the important parameters is "U", which is a potential of the target, used for electric field calculation in COMSOL. The electric field depends linearly on this potential, thus the same multiplication factor is used in the code.
 
 In the code, the particle parameters are present. They are: mass "m", charge "q", energy in MeV "T".  The time step between each calculation (of speed and acceletion) "dt" can be varied, but a smaller value will lead to increased calculatio time.
