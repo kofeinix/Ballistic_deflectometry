@@ -17,7 +17,7 @@ As proton energy has a direct connection with it's speed and thus with time-of-f
 The mesh can be placed in a way of a proton beam to produce some structure on the RCF and study it's warping.
 
 To process the experimental data, a simulations must be implemented. By comparing the experimental and synthetic image, the electric and magnetic field parameters may be defined.
-This project is the ballistic simulation code with variable parameters. It was used for writing the following article - see [1](https://iopscience.iop.org/article/10.1088/1742-6596/1686/1/012004).
+This project is the ballistic simulation code with variable parameters. It was used for writing the following article - see [Ref.1](https://iopscience.iop.org/article/10.1088/1742-6596/1686/1/012004).
 
 ## Contents of the Project
 The project contains synthetic_image_generator.py, which is a scipt for generation of images, My_Colormaps.py, which is a custom colormap for plotting, folders with input (fields and coordinates, explained later) and output data.
@@ -75,7 +75,7 @@ Project Link: [https://github.com/kofeinix/Ballistic_deflectometry](https://gith
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/iu-kochetkov/
-[Comsol-shield]]: https://cdn.comsol.com/company/logo/comsol-logo-130x20.png
+[Comsol-shield]: https://cdn.comsol.com/company/logo/comsol-logo-130x20.png
 [Comsol-url]: https://www.comsol.ru/
-[Wolfram-shield]]: https://www.wolfram.com/common/images/gl-logo-spikey.ru.png
+[Wolfram-shield]: https://www.wolfram.com/common/images/gl-logo-spikey.ru.png
 [Wolfram-url]: https://www.wolfram.com/mathematica/
