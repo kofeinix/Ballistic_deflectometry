@@ -55,7 +55,7 @@ __The main difference is that prange uses all the CPU cores at 100%! Thus the PC
 Without @njit only range can be used, however the calculation takes incomparably more time (x100 or even more). Thus __using [numba](http://numba.pydata.org/) is necessary__.
 Note that using prange will mess the progress check print statement up, but this print is useful for a simle range.
 
-Bznach contains desired field values (in the demo case - Bz) in the point (0, 0, 0). Eznach contains desired potential (U) values to be calculated.
+Bznach contains desired field values (in the demo case - Bz) in the point (0, 0, 0). Eznach contains desired potential (U) values to be calculated. The calculation script has B-field, E-field, number of particles (should be more than 1e6 for image be clearly visible), Edelete (to delete particles flying through target bulk - if change in to e.g. Edelete+1 - particles will not be deleted), and interpolation on/off switch.
 The results are saved as a 5000x5000 image file. 
 
 In the end, the any field component can be plotted in either XY or XZ plane at any cross-section or in many cross-sections - PlotField function is used for that. An example of usage for many cross-sections is commented in the end, the example images are presented in the output folder. 
